@@ -49,7 +49,7 @@ bodybuilding-data-warehouse/
 
 ### 1. Clone and Install
 ```bash
-git clone [https://github.com/kaushik776/Data-Engineering-project.git](https://github.com/kaushik776/Data-Engineering-project.git)
+git clone https://github.com/kaushik776/Data-Engineering-project.git
 cd Data-Engineering-project
 pip install -r requirements.txt
 ```
