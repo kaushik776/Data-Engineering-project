@@ -44,3 +44,37 @@ bodybuilding-data-warehouse/
 ├── requirements.txt            # Python dependencies
 ├── generate_mock_data.py       # Script to populate initial datasets
 └── etl_pipeline.py             # Main Prefect-orchestrated ETL logic
+
+## Setup and Installation
+
+### 1. Clone and Install
+```bash
+git clone [https://github.com/kaushik776/Data-Engineering-project.git](https://github.com/kaushik776/Data-Engineering-project.git)
+cd Data-Engineering-project
+pip install -r requirements.txt
+
+
+### 2. Configure AWS Credentials
+Create a .env file in the root directory:
+
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+AWS_DEFAULT_REGION=eu-central-1
+
+### 3. Generate and Upload Data
+Run python generate_mock_data.py.
+
+Upload fact_nutrition_recovery.csv, dim_protein_source.csv, and dim_time.csv to your S3 bucket.
+
+## Orchestration with Prefect
+## Start the Dashboard
+# Monitor task health and execution logs:
+
+```bash
+python -m prefect server start
+
+### Serve the Pipeline
+Deploy the flow to run on a 5-minute schedule:
+
+```bash
+python etl_pipeline.py
