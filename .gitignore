@@ -7,9 +7,6 @@
 *.sqlite3
 bodybuilding_dw.db
 
-# Raw Data (Generated locally, doesn't need to be in repo)
-data/
-*.csv
 
 # Python Cache & Virtual Environments
 __pycache__/
