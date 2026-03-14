@@ -68,7 +68,7 @@ Upload fact_nutrition_recovery.csv, dim_protein_source.csv, and dim_time.csv to 
 
 ## Orchestration with Prefect
 ## Start the Dashboard
-# Monitor task health and execution logs:
+ Monitor task health and execution logs:
 
 ```bash
 python -m prefect server start
