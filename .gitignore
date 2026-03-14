@@ -1,0 +1,25 @@
+# Security (CRITICAL)
+.env
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+bodybuilding_dw.db
+
+# Raw Data (Generated locally, doesn't need to be in repo)
+data/
+*.csv
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# IDE / OS system files
+.DS_Store
+.vscode/
+.idea/

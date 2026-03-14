@@ -1,0 +1,5 @@
+pandas
+faker
+boto3
+python-dotenv
+prefect
